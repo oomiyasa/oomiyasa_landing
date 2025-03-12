@@ -16,31 +16,48 @@ const Hero: React.FC = () => {
           </div>
           
           {/* Links with no underlines */}
-          <div className="flex flex-wrap justify-center gap-6 md:gap-12">
-            <a 
-              href="https://thegoodnobook.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-lg md:text-xl font-medium text-primary hover:text-primary/80 transition-colors duration-200"
-            >
-              thegoodnobook.com
-            </a>
-            <a 
-              href="https://ticketfence.net" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-lg md:text-xl font-medium text-primary hover:text-primary/80 transition-colors duration-200"
-            >
-              ticketfence.net
-            </a>
-            <a 
-              href="https://pricepricebaby.app" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-lg md:text-xl font-medium text-primary hover:text-primary/80 transition-colors duration-200"
-            >
-              pricepricebaby.app
-            </a>
+          <div className="flex flex-col items-center gap-6 md:gap-8">
+            <div className="flex items-center gap-2">
+              <a 
+                href="https://thegoodnobook.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-lg md:text-xl font-medium text-primary hover:text-primary/80 transition-colors duration-200"
+              >
+                thegoodnobook.com
+              </a>
+              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                Live
+              </span>
+            </div>
+            
+            <div className="flex items-center gap-2">
+              <a 
+                href="https://ticketfence.net" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-lg md:text-xl font-medium text-primary hover:text-primary/80 transition-colors duration-200"
+              >
+                ticketfence.net
+              </a>
+              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-amber-100 text-amber-800">
+                Launching March 2025
+              </span>
+            </div>
+            
+            <div className="flex items-center gap-2">
+              <a 
+                href="https://pricepricebaby.app" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-lg md:text-xl font-medium text-primary hover:text-primary/80 transition-colors duration-200"
+              >
+                pricepricebaby.app
+              </a>
+              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-amber-100 text-amber-800">
+                Launching March 2025
+              </span>
+            </div>
           </div>
         </div>
       </div>
