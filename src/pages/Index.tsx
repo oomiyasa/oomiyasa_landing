@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 const Index = () => {
   useEffect(() => {
     // Update page title
-    document.title = "Prisma - Premium Design System";
+    document.title = "oomiyasa - good stuff";
     
     // Smooth scroll for anchor links
     const handleAnchorClick = (e: MouseEvent) => {

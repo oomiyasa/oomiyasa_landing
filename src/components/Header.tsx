@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
-import AnimatedLogo from "./AnimatedLogo";
 import { CustomButton } from "./ui/custom-button";
 import { Menu, X } from "lucide-react";
 
@@ -55,8 +54,11 @@ const Header: React.FC = () => {
           to="/" 
           className="flex items-center space-x-2 group transition-opacity hover:opacity-80"
         >
-          <AnimatedLogo animated={false} className="group-hover:animate-pulse-soft" />
-          <span className="text-xl font-display font-medium">Prisma</span>
+          <img src="/lovable-uploads/4d440948-15b6-4e49-be05-2e3a640a27e2.png" alt="oomiyasa logo" className="h-8" />
+          <div className="flex flex-col items-start">
+            <span className="text-xl font-display font-medium">oomiyasa</span>
+            <span className="text-xs text-muted-foreground">good stuff</span>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}
