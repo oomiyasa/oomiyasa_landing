@@ -15,8 +15,8 @@ const Hero: React.FC = () => {
             <p className="text-xl md:text-2xl text-muted-foreground font-light">good stuff</p>
           </div>
           
-          {/* Links with no underlines */}
-          <div className="flex flex-col items-center gap-6 md:gap-8">
+          {/* Links with no underlines - horizontal layout */}
+          <div className="flex flex-wrap justify-center gap-4 md:gap-6">
             <div className="flex items-center gap-2">
               <a 
                 href="https://thegoodnobook.com" 
