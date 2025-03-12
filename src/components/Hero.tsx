@@ -15,9 +15,9 @@ const Hero: React.FC = () => {
             <p className="text-xl md:text-2xl text-muted-foreground font-light">good stuff</p>
           </div>
           
-          {/* Links with no underlines - horizontal layout */}
-          <div className="flex flex-wrap justify-center gap-4 md:gap-6">
-            <div className="flex items-center gap-2">
+          {/* Links with status below each URL */}
+          <div className="flex flex-wrap justify-center gap-6 md:gap-10">
+            <div className="flex flex-col items-center">
               <a 
                 href="https://thegoodnobook.com" 
                 target="_blank" 
@@ -26,12 +26,12 @@ const Hero: React.FC = () => {
               >
                 thegoodnobook.com
               </a>
-              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+              <span className="mt-1 inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
                 Live
               </span>
             </div>
             
-            <div className="flex items-center gap-2">
+            <div className="flex flex-col items-center">
               <a 
                 href="https://ticketfence.net" 
                 target="_blank" 
@@ -40,12 +40,12 @@ const Hero: React.FC = () => {
               >
                 ticketfence.net
               </a>
-              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-amber-100 text-amber-800">
+              <span className="mt-1 inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-amber-100 text-amber-800">
                 Launching March 2025
               </span>
             </div>
             
-            <div className="flex items-center gap-2">
+            <div className="flex flex-col items-center">
               <a 
                 href="https://pricepricebaby.app" 
                 target="_blank" 
@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
               >
                 pricepricebaby.app
               </a>
-              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-amber-100 text-amber-800">
+              <span className="mt-1 inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-amber-100 text-amber-800">
                 Launching March 2025
               </span>
             </div>
