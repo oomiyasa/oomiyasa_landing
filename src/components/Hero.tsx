@@ -15,13 +15,13 @@ const Hero: React.FC = () => {
             <p className="text-xl md:text-2xl text-muted-foreground font-light">good stuff</p>
           </div>
           
-          {/* Links with improved visibility */}
+          {/* Links with no underlines */}
           <div className="flex flex-wrap justify-center gap-6 md:gap-12">
             <a 
               href="https://thegoodnobook.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-lg md:text-xl font-medium text-primary hover:text-primary/80 transition-colors duration-200 underline decoration-2 underline-offset-4 hover:decoration-primary"
+              className="text-lg md:text-xl font-medium text-primary hover:text-primary/80 transition-colors duration-200"
             >
               thegoodnobook.com
             </a>
@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
               href="https://ticketfence.net" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-lg md:text-xl font-medium text-primary hover:text-primary/80 transition-colors duration-200 underline decoration-2 underline-offset-4 hover:decoration-primary"
+              className="text-lg md:text-xl font-medium text-primary hover:text-primary/80 transition-colors duration-200"
             >
               ticketfence.net
             </a>
@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
               href="https://pricepricebaby.app" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-lg md:text-xl font-medium text-primary hover:text-primary/80 transition-colors duration-200 underline decoration-2 underline-offset-4 hover:decoration-primary"
+              className="text-lg md:text-xl font-medium text-primary hover:text-primary/80 transition-colors duration-200"
             >
               pricepricebaby.app
             </a>
