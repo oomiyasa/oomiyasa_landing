@@ -63,6 +63,34 @@ const Hero: React.FC = () => {
             <p className="text-xl md:text-2xl text-muted-foreground font-light">good stuff</p>
           </div>
           
+          {/* Links distributed horizontally */}
+          <div className="flex flex-wrap justify-center gap-6 md:gap-12 reveal">
+            <a 
+              href="https://thegoodnobook.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-lg md:text-xl font-medium text-foreground hover:text-primary transition-colors duration-200 underline decoration-2 underline-offset-4 hover:decoration-primary"
+            >
+              thegoodnobook.com
+            </a>
+            <a 
+              href="https://ticketfence.net" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-lg md:text-xl font-medium text-foreground hover:text-primary transition-colors duration-200 underline decoration-2 underline-offset-4 hover:decoration-primary"
+            >
+              ticketfence.net
+            </a>
+            <a 
+              href="https://pricepricebaby.app" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-lg md:text-xl font-medium text-foreground hover:text-primary transition-colors duration-200 underline decoration-2 underline-offset-4 hover:decoration-primary"
+            >
+              pricepricebaby.app
+            </a>
+          </div>
+          
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-bold tracking-tight max-w-4xl reveal">
             Quality products for <br />everyday moments
           </h1>
